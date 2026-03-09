@@ -1,0 +1,22 @@
+body{
+    background-image: url("image.png");
+    background-color: rgb(113, 61, 61);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.popup {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    display: none;
+}
